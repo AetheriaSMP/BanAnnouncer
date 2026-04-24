@@ -1,7 +1,7 @@
 {
   "embed": {
     "title": "Revoked punishment",
-    "description": "The player `%player%` has been ip-unbanned by `%staff%`",
+    "description": "The player `%player%` has been ip-unbanned by `%staff%` (reason: `%reason%`, duration: `%duration%`)",
     "color": 10771377,
     "footer": {
       "icon_url": "https://i.imgur.com/JhEluGV.png",

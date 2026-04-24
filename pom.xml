@@ -19,7 +19,7 @@
         </repository>
         <repository>
             <id>velocity-repo</id>
-            <url>https://repo.velocitypowered.com/snapshots/</url>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
             <id>sponge-repo</id>
@@ -52,12 +52,6 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>me.tini</groupId>
-            <artifactId>command</artifactId>
-            <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
@@ -97,7 +91,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
+            <version>1.18.38</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -137,27 +131,12 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Installed latest release jar on my local .m2 -->
-        <dependency>
-            <groupId>io.github.emilyydev</groupId>
-            <artifactId>betterjails</artifactId>
-            <version>1.6</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- Installed this jar on my local .m2 : https://repo.techscode.com/repository/techscode-apis/me/TechsCode/UltraPunishmentsAPI/1.0.1/UltraPunishmentsAPI-1.0.1.jar -->
-        <dependency>
-            <groupId>me.TechsCode</groupId>
-            <artifactId>UltraPunishmentsAPI</artifactId>
-            <version>1.0.1</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <properties>
-        <maven.compiler.release>1.8</maven.compiler.release>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

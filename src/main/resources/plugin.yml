@@ -12,6 +12,7 @@ softdepend:
  - BetterJails
 description: Announce the punishments on your Discord server
 api-version: 1.13
+folia-supported: true
 
 commands:
   banannouncer-reload:
